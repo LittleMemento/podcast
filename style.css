@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+.Header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.Header .Navbar {
+  width: 100%;
+  padding: 30px 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Navbar .logo_menu {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Navbar .logo_menu .logo {
+}
+
+.Navbar .logo_menu .nav_menu {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Navbar .logo_menu .nav_menu .list_item .item_link {
+  font-weight: 700;
+  font-size: 16px;
+  color: #000;
+}
+
+.Navbar .btn_group {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Navbar .btn_group a {
+  font-weight: 700;
+  font-size: 14px;
+  padding: 12px 24px;
+  border-radius: 8px;
+  border: 2px solid #000;
+}
+
+.Navbar .btn_group .btn_episod {
+  color: #000;
+  background-color: #fff;
+}
+
+.Navbar .btn_group .btn_sub {
+  color: #fff;
+  background-color: #000;
+}
+
+.Header .header_main {
+  width: 100%;
+  padding: 30px 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Header .header_main h1 {
+  font-weight: 700;
+  font-size: 100px;
+  color: #000;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.Header .header_main h1 span {
+  color: #cd4631;
+}
+
+.Header .header_main p {
+  font-weight: 500;
+  font-size: 16px;
+  color: #000;
+  opacity: 0.7;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.Header .header_main .btn_sub {
+  font-weight: 700;
+  font-size: 14px;
+  color: #fff;
+  background-color: #000;
+  border: 2px solid #000;
+  border-radius: 8px;
+  padding: 24px 48px;
+  margin-top: 50px;
+}
+
+.Header .swirl {
+  position: absolute;
+  left: 0;
+  top: 100px;
+}
+
+.Header .stars {
+  position: absolute;
+  right: 200px;
+  top: 300px;
+}
